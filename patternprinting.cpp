@@ -176,3 +176,150 @@
 //     }
 //     return 0;
 // }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n ; 
+//     cin>>n;
+//     for(int i = 1 ; i <= n ; i++ ){
+//         int a = 1 ;
+//         for(int j = 1 ; j <= i ; j++){
+//             int d = a + 64 ; // A 
+//             char ch = char(d); //typecasting 
+//             if(i % 2 != 0 ){
+//                 cout<<ch<<" ";
+//             }else{
+//                 cout<<a<<" ";
+//             }
+//             a++;
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n ;
+//     cin>>n;
+//     for(int i = 1 ; i <= n ; i++ ){
+//         for(int j = 1 ; j <= n ; j++ ){
+//             int mid = n / 2 + 1 ;
+//             if ( i == mid || j == mid ){
+//                 cout<<" * ";
+//             }else{
+//                 cout<<"   ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int row , column ;
+//     cin>>row >>column;
+//     for(int i = 1 ; i <= row ; i++ ){
+//         for(int j = 1 ; j <= column ; j++ ){
+//             if(i == 1 || i == row || j == 1 || j == column){
+//                 cout<<" * ";
+//             }
+//             else{
+//                 cout<<"   ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n ;
+//     cin>>n;
+//     for(int i = 1 ; i <= n ; i++ ){
+//         for(int j = 1 ; j <= n ; j++ ){
+//             if(i == j || i + j == n + 1 ){
+//                 cout<<" * ";
+//             }else{
+//                 cout<<"   ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n ;
+//     cin>>n;
+//     int a = 1 ;
+//     for(int i = 1 ; i <= n ; i++ ){
+//         for(int j = 1 ; j <= i ; j++ ){
+//             cout<<a<<" ";
+//             a = a+2;
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n ;
+//     cin>>n;
+//     for(int i = 1 ; i <= n ; i++){
+//         for(int j = 1 ; j <= i ; j++ ){
+//             if( (i + j ) % 2 == 0 ){
+//                 cout<<" 1 ";
+//             }else{
+//                 cout<<" 0 ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+// #include<iostream>
+// using namespace std;
+// int main(){
+//     int n ;
+//     cin>>n;
+//     for(int i = 1 ; i <= n ; i++ ){
+//         for(int j = 1 ; j <= n ; j++ ){
+//             if ( i + j <= n ){
+//                 cout<<"   ";
+//             }else{
+//                 cout<<" * ";
+//             }
+//         }
+//         cout<<endl;
+//     }
+//     return 0;
+// }
